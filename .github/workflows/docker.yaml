@@ -11,7 +11,7 @@ jobs:
 
   build-1_10:
 
-    name: Build 1.10
+    name: Build 1.10 Forked
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -46,7 +46,7 @@ jobs:
 
   build-2_0:
 
-    name: Build 2.0
+    name: Build 2.0 Forked
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
