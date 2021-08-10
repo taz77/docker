@@ -64,7 +64,7 @@ jobs:
         --tag bowens/composer:2 \
         --tag bowens/composer:$(grep -oE 'COMPOSER_VERSION 2.[0-9]+.[0-9]+' Dockerfile | grep -oE '2.[0-9]+.[0-9]+') \
         .
-      working-directory: '2.1'
+      working-directory: '2.0'
 
     - name: Registry login
       if: github.ref == 'refs/heads/master'
