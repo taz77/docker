@@ -10,6 +10,7 @@ on:
     - '**/Dockerfile'
     - '**/docker-entrypoint.sh'
 
+
 jobs:
 
   build-1_10:
